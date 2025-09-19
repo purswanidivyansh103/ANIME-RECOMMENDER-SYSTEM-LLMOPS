@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain_groq
+langchain-chroma
+chromadb==1.0.17
+duckdb==0.10.2
+pandas
+python-dotenv
+sentence-transformers
+langchain_huggingface
+hf_xet
