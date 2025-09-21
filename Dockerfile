@@ -23,5 +23,9 @@ RUN pip install --no-cache-dir -e .
 # Used PORTS
 EXPOSE 8501
 
+# at the end
+CMD ["python","-m","streamlit","run","app.py","--server.port=8501","--server.address=0.0.0.0"]
+
+
 # Run the app 
-CMD ["streamlit", "run", "app/app.py", "--server.port=8501", "--server.address=0.0.0.0","--server.headless=true"]
+# CMD ["streamlit", "run", "app/app.py", "--server.port=8501", "--server.address=0.0.0.0","--server.headless=true"]
