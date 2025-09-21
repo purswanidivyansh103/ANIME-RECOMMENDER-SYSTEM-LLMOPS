@@ -131,8 +131,8 @@
 ### 4. Interlink your Github on VSCode and on VM
 
 ```bash
-git config --global user.email "gyrogodnon@gmail.com"
-git config --global user.name "data-guru0"
+git config --global user.email "purswanidivyansh103@gmail.com"
+git config --global user.name "purswanidivyansh103"
 
 git add .
 git commit -m "commit"
@@ -140,10 +140,12 @@ git push origin main
 ```
 
 - When prompted:
-  - **Username**: `data-guru0`
+  - **Username**: `purswanidivyansh103`
   - **Password**: GitHub token (paste, it's invisible)
 
 ---
+
+### Additional Step -To create a firewall rulw from GCP
 
 
 ### 5. Build and Deploy your APP on VM
